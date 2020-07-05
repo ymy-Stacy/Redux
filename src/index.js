@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { createStore } from 'redux'
-import Counter from './components/Counter/Counter'
-import counter from './components/Counter/reducers/counter'
+import Counter from './03_Counter/Counter/Counter'
+import counter from './03_Counter/Counter/reducers/counter'
 
-import ReactTest from './components/ReactTest'
-import ReduxCounter from './components/Redux1/index';
+import ReactTest from './02_ReactTest/ReactTest/ReactTest'
+import ReduxCounter from './04_Redux/Redux/index';
 
 const store = createStore(counter)
 const rootEl = document.getElementById('root')
